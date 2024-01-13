@@ -5,8 +5,14 @@ userName = "Moronihah";
 console.log(`Username: ${userName}`);
 
 // 🔍 Part 2 error
-const currentDateAndTime = DateTime;
-console.log(`It is now ${currentDateAndTime}`);
+// Created a new Date object
+var currentDateAndTime = new Date();
+
+// Got the current date and time in a readable format
+var dateString = currentDateAndTime.toLocaleString();
+
+// Displayed the result
+console.log(`It is now ${dateString}`);
 
 // 🔍 Part 3 error. The following statement calls a function named total that accepts any number of arguments and returns the sum. The returned value is stored in a variable named theTotal. 1-10 are the arguments.
 
